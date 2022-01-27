@@ -1,15 +1,14 @@
-package 踩坑合集;
+package com.zty.踩坑合集;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
-import java.util.logging.SimpleFormatter;
 
 /**
  * @author: zty
  * @program: JavaSE
- * @ClassName 踩坑合集.Date_or_LocalDateTime
+ * @ClassName com.zty.踩坑合集.Date_or_LocalDateTime
  * @description:
  * @create: 2022-01-19 15:20
  * @Version 1.0

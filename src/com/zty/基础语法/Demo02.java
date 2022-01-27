@@ -6,7 +6,7 @@
  * @create: 2022-01-26 17:45
  * @Version 1.0
  **/
-package 基础语法;
+package com.zty.基础语法;
 
 public class Demo02 {
     public static void main(String[] args) {

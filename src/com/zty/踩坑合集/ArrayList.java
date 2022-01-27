@@ -1,8 +1,8 @@
-package 踩坑合集;
+package com.zty.踩坑合集;
 /**
  * @author: zty
  * @program: JavaSE
- * @ClassName 踩坑合集.ArrayList
+ * @ClassName com.zty.踩坑合集.ArrayList
  * @description:
  * @create: 2022-01-19 17:02
  * @Version 1.0
@@ -18,7 +18,7 @@ import java.util.List;
 public class ArrayList {
     public static void main(String[] args) {
         Integer [] array = {1,2,3,4};
-        List<Integer> list = Arrays.asList(array);//仅仅只是 Arrays 一个内部类，并非真正的 java.util.踩坑合集.ArrayList。
+        List<Integer> list = Arrays.asList(array);//仅仅只是 Arrays 一个内部类，并非真正的 java.util.com.zty.踩坑合集.ArrayList。
         // 1.通过 Arrays#asList 将数组转化为 List 集合不能进行增删操作，
         // list.add(3);//UnsupportedOperationException错误
         list.set(0,9);
@@ -28,7 +28,7 @@ public class ArrayList {
         // 2.通过输出结果可以看出转换前后的array和list相互影响。
         /*
          * 解耦办法
-         * 1.List<String> list = new 踩坑合集.ArrayList<>(Arrays.asList(array));
+         * 1.List<String> list = new com.zty.踩坑合集.ArrayList<>(Arrays.asList(array));
          * 2.List<String> list = Lists.newArrayList(array);//谷歌提供的Guava包！
          */
 
@@ -82,7 +82,7 @@ public class ArrayList {
 
         //使用 Guava提供的不可变集合，jdk的比较笨重
         /**
-        List<String> list4 = new java.util.踩坑合集.ArrayList<>(Arrays.asList("one", "two", "three"));
+        List<String> list4 = new java.util.com.zty.踩坑合集.ArrayList<>(Arrays.asList("one", "two", "three"));
         List<String> unmodifiableList = ImmutableList.copyOf(list);
         */
 

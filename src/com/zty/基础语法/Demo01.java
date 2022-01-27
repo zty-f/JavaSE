@@ -6,7 +6,7 @@
  * @create: 2022-01-26 17:22
  * @Version 1.0
  **/
-package 基础语法;
+package com.zty.基础语法;
 public class Demo01 {
     public static void main(String[] args) {
         // 严格大小写区分

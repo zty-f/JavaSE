@@ -6,10 +6,20 @@
  * @create: 2022-01-26 19:49
  * @Version 1.0
  **/
-package 基础语法;
+package com.zty.基础语法;
 
 public class Demo03 {
     public static void main(String[] args) {
+        /*byte:1字节
+        short:2字节
+        char:2字节无符
+        int:4字节
+        float:4字节
+        long:8字节
+        double:8字节
+        */
+
+
         int i = 128;
         // 强制类型转换  （数据类型）变量名  高(多字节)——>低(少字节)
         byte b = (byte) i;

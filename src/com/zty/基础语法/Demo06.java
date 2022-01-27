@@ -6,7 +6,7 @@
  * @create: 2022-01-26 20:47
  * @Version 1.0
  **/
-package 基础语法;
+package com.zty.基础语法;
 
 public class Demo06 {
     // 常量
