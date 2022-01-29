@@ -1,0 +1,10 @@
+重写:需要有继承关系·子类重写父类的方法!
+    1．方法名必须相同
+    2．参数列表列表必须相同
+    3．修饰符:范围可以扩大但不能缩小:public>protected>Default>private
+    4．抛出的异常:范围，可以被缩小，但不能扩大: ClassNotFoundException --> Exception(大)
+重写，子类的方法和父类必须一致;方法体不同!
+
+为什么需要重写:
+    1.父炎的功能,子英不一定需要,或者不一定满足!
+    Alt +Insert : override;
