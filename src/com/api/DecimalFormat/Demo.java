@@ -6,7 +6,7 @@
  * @create: 2022-02-02 20:26
  * @Version 1.0
  **/
-package com.zty.DecimalFormat;
+package com.api.DecimalFormat;
 
 import java.text.DecimalFormat;
 

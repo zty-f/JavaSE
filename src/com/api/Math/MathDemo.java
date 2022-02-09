@@ -1,4 +1,4 @@
-package com.zty.Math;
+package com.api.Math;
 
 public class MathDemo {
     public static void main(String[] args) {
