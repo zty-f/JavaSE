@@ -6,7 +6,7 @@
  * @create: 2022-02-14 20:47
  * @Version 1.0
  **/
-package com.api.IOStream;
+package com.api.IOStream.字节输出流;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

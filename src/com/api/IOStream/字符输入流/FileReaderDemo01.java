@@ -1,8 +1,8 @@
-package com.api.IOStream;
+package com.api.IOStream.字符输入流;
 
 import java.io.FileReader;
 import java.io.Reader;
-
+//输入
 public class FileReaderDemo01{//字符
     public static void main(String[] args) throws Exception {
         // 1.创建一个文件对象定位源文件

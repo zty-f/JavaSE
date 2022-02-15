@@ -1,8 +1,8 @@
-package com.api.IOStream;
+package com.api.IOStream.字符输入流;
 
 import java.io.FileReader;
 import java.io.Reader;
-
+//输入
 public class FileReaderDemo02 {//字符数组
     public static void main(String[] args) throws Exception {
         Reader fr = new FileReader("D:\\IDEA_Project\\JavaSE\\src\\com\\api\\IOStream\\resourse.txt");
