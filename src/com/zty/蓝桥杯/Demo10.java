@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Demo10 {
 	public static void main(String[]args){
 		Scanner scanner = new Scanner(System.in);
+<<<<<<< HEAD
 		long n = scanner.nextLong();
 		long res = 0;
 		if(n%2==1){//奇数 n*n-1*n-2
@@ -16,12 +17,29 @@ public class Demo10 {
 				res = (n-1)*(n-2)*(n-3);
 			}else{//n*n-1*n-3
 				res = (n)*(n-1)*(n-3);
+=======
+		int n = scanner.nextInt();
+		BigDecimal res = new BigDecimal(0);
+		BigDecimal n_ = new BigDecimal(n);
+		BigDecimal n_1 = new BigDecimal(n-1);
+		if(n%2==1){//奇数 n*n-1*n-2
+			res = n_.multiply(n_1);
+			res = res.multiply(new BigDecimal(n-2));
+		}else{//偶数
+			if(n%3==0){//n-1*n-2*n-3
+				res = n_1.multiply(new BigDecimal(n-2));
+				res = res.multiply(new BigDecimal(n-3));
+			}else{//n*n-1*n-3
+				res = n_.multiply(new BigDecimal(n-1));
+				res = res.multiply(new BigDecimal(n-3));
+>>>>>>> origin/main
 			}
 
 		}
 		System.out.println(res);
 		scanner.close();
 	}
+<<<<<<< HEAD
 	//使用BigDecimal
 	//public static void main(String[]args){
 	//	Scanner scanner = new Scanner(System.in);
@@ -45,4 +63,6 @@ public class Demo10 {
 	//	System.out.println(res);
 	//	scanner.close();
 	//}
+=======
+>>>>>>> origin/main
 }
