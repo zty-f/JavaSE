@@ -14,11 +14,10 @@ BigDecimal divide = bd1.divide(参与运算的对象,小数点后精确到多少
   BigDecimal.ROUND_HALF_UP 四舍五入
  */
 
+import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
-import com.zty.oop03.B;
 
 import java.math.BigDecimal;
-import java.util.logging.Logger;
 
 /**
  * @ClassName: com.api.BigDecimal.BigDecimalDemo.java
