@@ -14,11 +14,32 @@ BigDecimal divide = bd1.divide(参与运算的对象,小数点后精确到多少
   BigDecimal.ROUND_HALF_UP 四舍五入
  */
 
+import com.sun.org.slf4j.internal.LoggerFactory;
 import com.zty.oop03.B;
 
 import java.math.BigDecimal;
+import java.util.logging.Logger;
 
+/**
+ * @ClassName: com.api.BigDecimal.BigDecimalDemo.java
+ * @Description:
+ * @Copyright 2016-2018 公司名称 - Powered By 研发中心
+ * @author: zty-f
+ * @date:  2022-03-01 16:43
+ * @version V1.0
+ */
 public class BigDecimalDemo {
+/**
+ * @MethodName:  
+ * @param null
+ * @Return
+ * @Exception 
+ * @Description:
+ * @author: zty-f
+ * @date:  2022-03-01 16:43
+ */
+private static final Logger logger = LoggerFactory.getLogger(BigDecimalDemo.class);
+
     public static void main(String[] args) {
         // 浮点型运算的时候直接+ - * / 可能会出现数据失真（精度问题）。
         System.out.println(0.1 + 0.2);
