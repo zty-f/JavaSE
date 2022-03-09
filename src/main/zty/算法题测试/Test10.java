@@ -28,5 +28,7 @@ public class Test10 {
             System.out.println(Arrays.toString(x[i]));
         }
         System.out.println(x);
+        String s = "ddldl";
+        System.out.println(s.startsWith("dd"));
     }
 }
