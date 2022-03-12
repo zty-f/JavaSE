@@ -10,12 +10,12 @@ package main.zty.基础语法;
 
 public class Demo03 {
     public static void main(String[] args) {
-        /*byte:1字节
+        /*byte:1字节  精度从上到下递增
         short:2字节
         char:2字节无符
         int:4字节
-        float:4字节
         long:8字节
+        float:4字节
         double:8字节
         */
 
