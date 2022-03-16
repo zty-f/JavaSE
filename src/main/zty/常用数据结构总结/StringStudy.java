@@ -12,6 +12,11 @@ import java.util.Arrays;
 public class StringStudy {
     public static void main(String[] args) {
         String s = new String("ztyfmj");
+        //先转换成StringBuffer，然后可以删除指定元素
+        StringBuffer buffer = new StringBuffer(s);
+        buffer.length();
+        System.out.println(buffer.deleteCharAt(0));
+        System.out.println(buffer.toString());
         //1.获取字符串长度
         System.out.println(s.length());//6
         //2.查找字符在字符串中第一次出现的位置

@@ -10,6 +10,9 @@ package main.zty.oopabstract;
 
 //抽象类
 public abstract class Abstract {
+    //抽象类可以有构造方法，但是不能实例化new
+    public Abstract() {
+    }
 
     //抽象方法，没有方法体
     public abstract void test();
