@@ -9,6 +9,7 @@ import java.util.Arrays;
  * @author: zty-f
  * @date: 2022/3/15 14:41
  * @Description:  final测试
+ *          final修饰的类叫最终类，修饰方法叫最终方法
  */
 /*
 final的作用：
