@@ -12,6 +12,7 @@ package main.zty.oopabstract;
 public abstract class Abstract {
     //抽象类可以有构造方法，但是不能实例化new
     public Abstract() {
+        System.out.println("抽象类的构造方法！");
     }
 
     //抽象方法，没有方法体

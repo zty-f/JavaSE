@@ -26,7 +26,7 @@ public class Outer {
 
 
 
-    //成员内部类
+    //普通成员内部类
     public class Inner{
         public void in(){
             System.out.println("这是成员内部类方法！");
@@ -37,4 +37,13 @@ public class Outer {
         }
     }
 
+    //静态成员内部类
+    public static class StaticInner {
+        public StaticInner(){
+            System.out.println("静态成员内部类构造方法！");
+        }
+        public void in() {
+            System.out.println("这是静态成员内部类方法！");
+        }
+    }
 }
