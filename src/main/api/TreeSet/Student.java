@@ -39,7 +39,7 @@ public class Student implements Comparable<Student>{
     // 被比较者：o
     // 需求：按照年龄比较 升序，年龄相同按照姓名
     @Override
-    public int compareTo(Student o) {
+    public int compareTo(Student o) { //这个方法和初始化时添加效果一样
         int result = this.age - o.age;
         return result == 0 ? this.getName().compareTo(o.getName()):result;
     }

@@ -14,10 +14,11 @@ public class TreeSetDemo{
         //});
 
         // lambda表达式，等同于上面代码！
-        Set<Student> students = new TreeSet<>((s1,s2)->s2.getAge()-s1.getAge());
+        Set<Student> students = new TreeSet<>((s1,s2)->s2.getAge()-s1.getAge()); //构造方法里面添加构造器会覆盖Student类里面的CompareTo方法，两处任意选择一处实现Comparable方法即可！
+        //Set<Student> students = new TreeSet<>();
 
-        Student s1 = new Student("a", 12);
-        Student s2 = new Student("b", 13);
+        Student s1 = new Student("a", 10);
+        Student s2 = new Student("b", 18);
         Student s3 = new Student("c", 14);
         students.add(s1);
         students.add(s2);
