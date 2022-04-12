@@ -17,5 +17,6 @@ public class Test03 {
         for(int[] t:x){
             System.out.println(Arrays.toString(t));
         }
+        String s = "ccc";
     }
 }
