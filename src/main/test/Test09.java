@@ -1,5 +1,8 @@
 package main.test;
 
+import java.util.PriorityQueue;
+import java.util.Queue;
+
 /**
  * @version V1.0
  * @ClassName: main.test.Test09.java
@@ -27,6 +30,7 @@ public class Test09 {
         p2.age = 12;
         System.out.println(p1);
         System.out.println(p2);
+        Queue<Integer> pq = new PriorityQueue<>((v1, v2) -> v2 - v1);
     }
     public void AAA(){
         //通过this调用实例方法
