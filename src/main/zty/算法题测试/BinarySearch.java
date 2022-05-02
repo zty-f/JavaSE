@@ -20,6 +20,7 @@ public class BinarySearch {
         int left = 0;
         int right = arr.length - 1;
 
+        //1.
         while (left <= right) {
             int mid = (left + right) >>> 1;
             if (arr[mid] > target) {
@@ -30,6 +31,28 @@ public class BinarySearch {
                 return mid;
             }
         }
+
+        // 2.
+        //while(l<r){
+        //    long mid = (l+r)>>1;//向下取整
+        //    if(mid*mid>x){
+        //        r = mid;
+        //    }else{
+        //        l = mid+1;
+        //    }
+        //}//结束循环最终l==r
+        //return (int)l-1;
+
+        // 3
+        // while(l<r){
+        //     long mid = (l+r+1)>>1;//向上取整  搭配使用
+        //     if(mid*mid>x){
+        //         r = mid-1;
+        //     }else{
+        //         l = mid;
+        //     }
+        // }//结束循环最终l==r
+        // return (int)l;
 
         return -1;
     }
