@@ -15,5 +15,11 @@ public class Test11 {
         double d = 3;
         System.out.println(a+b);//char+int = int类型
         System.out.println(a+b+d);//int +char + double = double类型
+
+        int i = 0xFFFFFFF1,j=~i;
+        System.out.println(j);
+
+        //float f = 1.1;  错误
+        //int x = 4L;  错误
     }
 }
