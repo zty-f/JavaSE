@@ -1,5 +1,5 @@
 /*
-package com.api.customgeneric;
+package main.api.customgeneric;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class MyVariableParameter4 {
     public static void main(String[] args) {
-        //jdk9 新特性
+        //jdk9 新特性 电脑为jdk1.8，不支持下面写法
 
         // static <E>  List<E>  of(E…elements)  创建一个具有指定元素的List集合对象
         //static <E>  Set<E>  of(E…elements)    创建一个具有指定元素的Set集合对象
@@ -48,4 +48,5 @@ public class MyVariableParameter4 {
         ArrayList<String> list3 = new ArrayList<>(List.of("a", "b", "c", "d"));
         System.out.println(list3);
     }
-}*/
+}
+*/
