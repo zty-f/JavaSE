@@ -25,6 +25,19 @@ public class Test09 {
 
         //String s = new String("123456"); // 新增2个String对象
 
-        String s = "666" + new String("666");  // 新增3个String对象
+        //String s = "666" + new String("666");  // 新增3个String对象
+
+
+        String s1 = new String("a") + new String("b");
+
+        String s2 = "ab";
+
+        String s3 = s1.intern();
+
+        System.out.println(s1 == s2); // false
+        System.out.println(s1 == s3); // false
+        System.out.println(s2 == s3); // true
+
+        new Thread();
     }
 }
