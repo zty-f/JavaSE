@@ -29,6 +29,5 @@ public class Test05 implements Cloneable{//浅克隆 引用变量公用，其他
         System.out.println(t1.st == t2.st);//true
         System.out.println(t1.st.equals(t2.st));//true
 
-        Exception e
     }
 }
