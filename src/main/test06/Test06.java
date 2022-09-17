@@ -1,5 +1,7 @@
 package main.test06;
 
+import java.util.Arrays;
+
 /**
  * @version V1.0
  * @ClassName: main.test06.Test06.java
@@ -22,6 +24,8 @@ public class Test06 {
 
         System.out.println(x.substring(4,7));//efg
 
+        test();
+
         try {
             return;
         }finally {
@@ -30,6 +34,11 @@ public class Test06 {
 
         //Test06 test06 = new Test06(); // 编译异常，如果有一个带参数构造方法，要使用无参构造方法必须显示声明
 
+    }
+
+    public static void test(){
+        int[] x = {1,2,3,4};
+        System.out.println(Arrays.toString(x));
     }
 }
 
