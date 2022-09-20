@@ -21,11 +21,10 @@ public class Test10 {
 
        nextInt(x)  生成0-x之间的随机数，不包含x
      */
-    public static void main(String[] args) {
+    public static void main(String[] args){
         for (int i = 0; i < 100; i++) {
             System.out.print(randomInt(2,5)+",");
         }
-
     }
 
     private static int randomInt(int min, int max){
