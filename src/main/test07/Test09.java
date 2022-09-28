@@ -29,6 +29,7 @@ public class Test09 {
         b(a,b);
         System.out.println(x+","+y);
         System.out.println(a.getType()+","+b.getType());
+        //int car.taxi = 1;  //编译错误
     }
 
     public static void b(K a,K b){
