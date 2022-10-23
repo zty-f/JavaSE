@@ -16,5 +16,12 @@ public class Test06 {
         System.out.println(a);
         a.getAndIncrement(); //并发安全的加一  底层采用CAS
         System.out.println(a);
+        char x = 'x';
+        char y = 'y';
+        char z;
+        int d = 1;
+        x += d;  //!!!!!!!这样可以   但是不能写成x = x+d;
+        System.out.println(x);
+        //z = x+y;  编译错误  x+y所得结果为int ，需要强制转换为char
     }
 }
