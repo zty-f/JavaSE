@@ -23,4 +23,9 @@ public class Test03 implements A{
     //protected void a() {  //重写方法不能降低访问权限
     //
     //}
+    public static void main(String[] args) {
+        int i = 0;
+        i = i++ + i;
+        System.out.println(i); // 1
+    }
 }
