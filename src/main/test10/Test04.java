@@ -4,7 +4,7 @@ public class Test04 {
     public static void main(String[] args) {
         System.out.println("111111");
 
-        //throw new RuntimeException();
+        //throw new RuntimeException();  test
     }
 
     /*
